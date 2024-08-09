@@ -7,3 +7,40 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Archivo Black", "Times New Roman", serif;
     font-weight: 400;
 }
+
+h1 {
+    font-size: 5rem;
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.recipe-button {
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    float: left;
+    margin: 10px 30px;
+    padding: 15px;
+    height: 200px;
+    width: 200px;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, .3));
+}
+
+.recipe-button:hover {
+    font-weight: bold;
+}
+
+.rbC1 {
+    background-color: #fff7ad;
+}
+
+.rbC2 {
+    background-color: #b9ffbd;
+}
+
+.recipe-button > p {
+    color: rgba(0, 0, 0, .7);
+}
